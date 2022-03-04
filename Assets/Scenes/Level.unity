@@ -3397,20 +3397,6 @@ PrefabInstance:
   m_Modification:
     m_TransformParent: {fileID: 0}
     m_Modifications:
-    - target: {fileID: 295040197, guid: d50d9d6b02a18e5449ade60dcc132cab, type: 3}
-      propertyPath: m_Constraints
-      value: 126
-      objectReference: {fileID: 0}
-    - target: {fileID: 4612723435743414132, guid: d50d9d6b02a18e5449ade60dcc132cab,
-        type: 3}
-      propertyPath: m_BaseOffset
-      value: -0.04
-      objectReference: {fileID: 0}
-    - target: {fileID: 4612723435743414132, guid: d50d9d6b02a18e5449ade60dcc132cab,
-        type: 3}
-      propertyPath: m_ObstacleAvoidanceType
-      value: 2
-      objectReference: {fileID: 0}
     - target: {fileID: 4612723435743414133, guid: d50d9d6b02a18e5449ade60dcc132cab,
         type: 3}
       propertyPath: m_RootOrder
