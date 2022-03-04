@@ -12,11 +12,13 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 633f3ab4f1f44291bc1088cd1325c2c9, type: 3}
   m_Name: LevelConfig
   m_EditorClassIdentifier: 
-  maxLife: 1
+  maxLife: 3
   movementSpeed: 2
   invincibilityCooldown: 5
   maxEnemies: 5
   maxCrystals: 5
   pointsForCrystal: 100
+  livesForCrystal: 1
+  damageValue: 1
   spawnCrystalInterval: 3
   spawnEnemyInterval: 3

@@ -81,7 +81,7 @@ namespace DefaultNamespace.Core
 
         public void PickUpCrystalByPlayer(CrystalBehaviour crystalBehaviour)
         {
-            _playerInfo.AddLives(1);
+            _playerInfo.AddLives(levelConfig.livesForCrystal);
             _playerInfo.AddScore(levelConfig.pointsForCrystal);
             crystalsSpawner.DestroyCrystal(crystalBehaviour);
         }
@@ -97,7 +97,7 @@ namespace DefaultNamespace.Core
             if(playerController.IsInvincibility)
                 return;
             
-            _playerInfo.ReduceLives(1);
+            _playerInfo.ReduceLives(levelConfig.damageValue);
             enemiesSpawner.DestroyEnemy(enemyBehaviour);
             playerController.SetInvincibility();
             hudView.ShowInvincibilityText(playerController.InvincibilityCooldown);

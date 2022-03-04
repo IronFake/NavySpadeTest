@@ -62,6 +62,7 @@ namespace DefaultNamespace
                 Vector3 point = hit.point;
                 point.y = 0;
                 agent.SetDestination(point);   
+                Debug.Log(point);
             }
         }
 
